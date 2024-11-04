@@ -1,0 +1,25 @@
+{
+  "name": "workshop-broken-musig-wallet-debugging",
+  "version": "1.0.0",
+  "description": "This is a workshop to debug a broken musig wallet",
+  "main": "index.js",
+  "author": "Theophilus Isah <isahtheophilus@gmail.com>",
+  "scripts": {
+    "test": "bun test"
+  },
+  "dependencies": {
+    "bip32": "^5.0.0-rc.0",
+    "bip39": "^3.1.0",
+    "bitcoin-address-validation": "^2.2.1",
+    "bitcoinjs-lib": "^6.1.5",
+    "ecpair": "^2.1.0",
+    "tiny-secp256k1": "^2.2.3"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.13",
+    "@types/node": "^22.8.4",
+    "typescript": "^5.6.3"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
